@@ -1,0 +1,22 @@
+
+body {
+    margin: 0;
+    font-family: "Antic", sans-serif;
+ 
+      }
+      
+.hero-image {
+    display: flex;
+    background: url('"C:\Users\Ana Barrocal\OneDrive - SPTech School\Projeto Individual\Projeto-Individual\Site\img\Picture1.jpg"');  
+    background-size: cover;
+    height: 900px;
+    position: relative;  
+}
+.hero-text{
+   text-align: start;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: #000;
+}
