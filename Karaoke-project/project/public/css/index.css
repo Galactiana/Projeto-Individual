@@ -306,7 +306,7 @@ a {
 
 #aboutMe h1 span,
 #timeline h1 span,
-#mugiwaras h1 span,
+#karaoke h1 span,
 #game h1 span,
 #game .line-2 .column-2 h2 span,
 #developer span {
@@ -500,21 +500,21 @@ a {
     padding-top: 40px;
 }
 
-#mugiwaras,
+#karaoke,
 #developer {
     margin-top: 40px;
     padding-top: 40px;
 }
 
-#mugiwaras .line-1,
+#karaoke .line-1,
 #game .line-1,
 #developer .line-1 {
     display: flex;
     justify-content: center;
 }
 
-#mugiwaras .line-1 .column-1,
-#mugiwaras .line-1 .column-2,
+#karaoke .line-1 .column-1,
+#karaoke .line-1 .column-2,
 #game .line-1 .column-1,
 #game .line-1 .column-2,
 #developer .line-1 .column-1,
@@ -524,7 +524,7 @@ a {
     justify-content: center;
 }
 
-#mugiwaras h1 {
+#karaoke h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 2rem;
@@ -535,7 +535,7 @@ a {
     margin-bottom: 100px;
 }
 
-#mugiwaras h1:before {
+#karaoke h1:before {
     content: "";
     width: 110px;
     height: 6px;
@@ -547,7 +547,7 @@ a {
     left: 4px;
 }
 
-#mugiwaras h1:after {
+#karaoke h1:after {
     content: "";
     width: 110px;
     height: 6px;
@@ -559,13 +559,13 @@ a {
     right: 4px;
 }
 
-#mugiwaras .line {
+#karaoke .line {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 80px;
 }
 
-#mugiwaras .mugiwara-container {
+#karaoke .mugiwara-container {
     width: 340px;
     height: 390px;
     border-radius: 32px;
@@ -579,26 +579,26 @@ a {
     user-select: none;
 }
 
-#mugiwaras .mugiwara-container.div-to-bottom {
+#karaoke .mugiwara-container.div-to-bottom {
     margin-top: 24px;
 }
 
-#mugiwaras .mugiwara-container:hover {
+#karaoke .mugiwara-container:hover {
     transform: scale(1.04);
 }
 
-#mugiwaras .mugiwara-container img {
+#karaoke .mugiwara-container img {
     height: 274px;
     margin-top: -44px;
     pointer-events: none;
 }
 
-#mugiwaras .mugiwara-container .chopper {
+#karaoke .mugiwara-container .chopper {
     height: 200px;
     margin: 12px 0;
 }
 
-#mugiwaras .mugiwara-container h2 {
+#karaoke .mugiwara-container h2 {
     font-size: 1.4rem;
     letter-spacing: 1px;
     margin: 16px 0 18px 0;
@@ -608,7 +608,7 @@ a {
     position: relative;
 }
 
-#mugiwaras .mugiwara-container h2:before {
+#karaoke .mugiwara-container h2:before {
     content: "";
     width: 44px;
     height: 6px;
@@ -619,14 +619,14 @@ a {
     bottom: -12px;
 }
 
-#mugiwaras .mugiwara-container div {
+#karaoke .mugiwara-container div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 12px;
 }
 
-#mugiwaras .mugiwara-container p {
+#karaoke .mugiwara-container p {
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 4px;
