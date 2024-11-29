@@ -52,7 +52,7 @@ button:focus {
 .quiz-menu {
     width: 96%;
     height: 100%;
-    background-image: url("../assets/image/menu-background.jpg");
+    background-image: url("../assets/image/");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -64,7 +64,7 @@ button:focus {
 .game-over {
     width: 96%;
     height: 100%;
-    background-image: url("../assets/image/game-over-background.jpg");
+    background-image: url("../assets/image/");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -75,7 +75,7 @@ button:focus {
 }
 
 .game-over.bonus {
-    background-image: url("../assets/image/game-over-background-bonus.jpg");
+    background-image: url("../assets/image/");
 }
 
 .game-over-container {
@@ -292,7 +292,7 @@ button:focus {
 .quiz-credits {
     width: 96%;
     height: 100%;
-    background-image: url("../assets/image/menu-background.jpg");
+    background-image: url("../assets/image/");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -426,7 +426,7 @@ button:focus {
 .quiz-progress {
     width: 96%;
     height: 100%;
-    background-image: url("../assets/image/progress-background.jpg");
+    background-image: url("../assets/image/");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;

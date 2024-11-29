@@ -31,7 +31,7 @@
     height: 6px;
     border-top-left-radius: 32px;
     border-bottom-right-radius: 32px;
-    background-color: #4B97D2;
+    background-color: #bc4bd2;
     position: absolute;
     bottom: -16px;
 }
@@ -58,7 +58,7 @@
 .kpi {
     width: 180px;
     height: 170px;
-    background-color: #1b40537d;
+    background-color: #5b13737d;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@
 .top-questions-container {
     width: 570px;
     height: 300px;
-    background-color: #1b40537d;
+    background-color: #87199d7d;
     border-radius: 12px;
 }
 
@@ -149,7 +149,7 @@ tbody tr td:nth-child(3) {
     margin-top: 70px;
     width: 570px;
     height: 440px;
-    background-color: #1b40537d;
+    background-color: #431b537d;
     border-radius: 12px;
     display: flex;
     flex-direction: column;

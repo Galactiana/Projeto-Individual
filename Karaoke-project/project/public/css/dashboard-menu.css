@@ -10,9 +10,9 @@
 }
 
 :root {
-    --primary-color: #4B97D2;
-    --secondary-color: #1b4053;
-    --red-color: #D70000;
+    --primary-color: #ae4bd2;
+    --secondary-color: #421b53;
+    --white-color: #ffffff;
     --yellow-color: #FFCC00;
 }
 
@@ -24,7 +24,7 @@ body {
     display: flex;
     font-family: Montserrat;
     height: 100%;
-    background: linear-gradient(0deg, rgba(27, 64, 83, 0.86) 0%, rgba(27, 64, 83, 0.86) 100%), url("../assets/image/general-background.png");
+    background: linear-gradient(179.35deg, rgba(237, 204, 215, 0.96) 18.36%, rgba(235, 201, 215, 0.96) 26.27%, rgba(231, 196, 216, 0.96) 45.55%, rgba(228, 193, 217, 0.96) 50.99%, rgba(224, 191, 221, 0.96) 58.9%, rgba(222, 190, 223, 0.96) 67.31%, rgba(220, 189, 225, 0.96) 78.18%, rgba(216, 187, 228, 0.96) 87.08%, rgba(211, 185, 232, 0.96) 91.53%, rgba(204, 176, 236, 0.96) 99.44%);
     background-position: center;
     background-repeat: repeat;
     background-size: 30%;
@@ -32,7 +32,7 @@ body {
 }
 
 body.gray {
-    background: linear-gradient(0deg, rgba(39, 46, 50, 0.86) 0%, rgba(39, 46, 50, 0.86) 100%), url("../assets/image/general-background.png");
+    /* background: linear-gradient(0deg, rgba(39, 46, 50, 0.86) 0%, rgba(39, 46, 50, 0.86) 100%), url("../assets/image/general-background.png"); */
     background-position: center;
     background-repeat: repeat;
     background-size: 30%;
