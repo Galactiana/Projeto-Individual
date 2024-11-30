@@ -1,15 +1,15 @@
-CREATE DATABASE KaraokeQuiz;
-USE KaraokeQuiz;
+CREATE DATABASE karaokeQuiz;
+USE karaokequiz;
 
-CREATE USER 'daisuke'@'localhost' IDENTIFIED BY 'daisu';
-GRANT ALL PRIVILEGES ON karaokequiz.* TO 'daisuke'@'localhost';
+CREATE USER 'karol'@'localhost' IDENTIFIED BY 'music2024';
+GRANT ALL PRIVILEGES ON karaokequiz.* TO 'karol'@'localhost';
 FLUSH PRIVILEGES;
 
 CREATE TABLE Player (
 	idPlayer INT PRIMARY KEY AUTO_INCREMENT,
     nickname VARCHAR(20) NOT NULL UNIQUE,
     email VARCHAR(45) NOT NULL UNIQUE,
-    password VARCHAR(45) NOT NULL,
+    passwordd VARCHAR(45) NOT NULL,
     avatar VARCHAR(45) DEFAULT 'no-avatar',
     title VARCHAR(45) DEFAULT 'Figurante'
 );

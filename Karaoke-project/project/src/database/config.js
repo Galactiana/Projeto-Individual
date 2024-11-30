@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
 const mySqlConfig = {
-    host: "localhost",
-    database: "OnePieceQuiz",
-    user: "luffy",
-    password: "nika"
+    host: "127.0.0.1",
+    database: "karaokeQuiz",
+    user: "karol",
+    password: "music2024"
 };
 
 function execute(instruction) {
