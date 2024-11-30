@@ -23,7 +23,7 @@ body {
     font-family: Montserrat;
     /* color: #ffffff; */
     height: 100%;
-    background-color: rgba(251, 233, 249, 0.585);
+    background-color: #D3B9E8;
     background-position: center;
     background-repeat: repeat;
     background-size: 30%;
@@ -442,10 +442,10 @@ a {
     position: relative;
 }
 
-#timeline .column-3.line::before {
+#timeline .karaoke::before {
     content: "";
-    width: 32px;
-    height: 18px;
+    width: 320px;
+    height: 180px;
     /* background-image: url("../assets/image/timeline-arrow.png"); */
     background-repeat: no-repeat;
     background-size: 28px;
