@@ -100,51 +100,51 @@ const q10 = {
 
 const q11 = {
     questionNumber: 11,
-    question: "Qual o cientista mais inteligente?",
-    alt1: "Caesar",
-    alt2: "Vegapunk",
-    alt3: "Queen",
-    alt4: "Judge",
+    question: "Qual a importância da postura correta ao cantar?",
+    alt1: "A postura não interfere na qualidade da voz",
+    alt2: "Uma postura ereta ajuda a projetar a voz, mas não é essencial",
+    alt3: "A postura correta auxilia na respiração, na projeção da voz e na saúde vocal",
+    alt4: "A postura só é importante para cantores profissionais",
     answer: "U2FsdGVkX18EWq4ePSfZu1CDgPZx7OLuoRLOtmObo/Q="
 }
 
 const q12 = {
     questionNumber: 12,
-    question: "Em que arco Luffy encontra Ivankov pela primeira vez?",
-    alt1: "Marineford",
-    alt2: "Zou",
-    alt3: "Impel Down",
-    alt4: "Dressrosa",
+    question: "Qual a diferença entre vibrato e tremolo?",
+    alt1: "Não há diferença entre os dois termos",
+    alt2: "Vibrato é uma variação involuntária da altura da nota, enquanto tremolo é uma variação voluntária",
+    alt3: "Vibrato é uma variação natural da altura da nota, enquanto tremolo é uma variação intencional da intensidade do som",
+    alt4: "Vibrato é um defeito vocal, enquanto tremolo é uma técnica desejável",
     answer: "U2FsdGVkX1+FzTHWkV10YHdd7gzF2wQWV/yTRtahRd8="
 }
 
 const q13 = {
     questionNumber: 13,
-    question: "Vilão principal do arco de Thriller Bark?",
-    alt1: "Gekko Moria",
-    alt2: "Doflamingo",
-    alt3: "Barba Negra",
-    alt4: "Crocodile",
+    question: "Como o canto pode ajudar a lidar com emoções?",
+    alt1: "O canto reprime as emoções",
+    alt2: "O canto permite expressar e processar emoções de forma saudável",
+    alt3: "O canto só é eficaz para emoções positivas",
+    alt4: "O canto não tem relação com a saúde emocional.",
     answer: "U2FsdGVkX1/X0puGSUdyH5TMkzwj9ytdIh27P0q4WuI="
 }
 
 const q14 = {
     questionNumber: 14,
-    question: "Quem é o Herói da Marinha?",
-    alt1: "Garp",
-    alt2: "Sengoku",
-    alt3: "Akainu",
-    alt4: "Aokiji",
+    question: "Quais os benefícios do canto em grupo para a saúde mental?",
+    alt1: "Isolamento e introspecção",
+    alt2: "Fortalecimento de laços sociais, redução do estresse e aumento da autoestima",
+    alt3: "Competição e busca pela perfeição",
+    alt4: "Apenas diversão e lazer",
     answer: "U2FsdGVkX1+Gz1IwYgjVW/eUzDesuXdbMU+GSp/onEo="
 }
 
 const q15 = {
     questionNumber: 15,
-    question: "Primeiro usuário da Mera Mera no Mi?",
-    alt1: "Sabo",
-    alt2: "Ace",
-    alt3: "Law",
-    alt4: "Kid",
+    question: "Quais as principais qualidades de um bom cantor profissional?",
+    alt1: "Uma voz potente e bonita",
+    alt2: "Técnica vocal sólida, musicalidade, interpretação e presença de palco",
+    alt3: "Apenas uma voz bonita é suficiente",
+    alt4: "É preciso ter um talento natural para cantar",
     answer: "U2FsdGVkX18Q1M3oVCGkTQXySxOhXdNaqLzjgHIyDfk="
 }
 

@@ -141,7 +141,7 @@ function removeBonusAttributes() {
         questionText.classList.remove("bonus");
         answers.forEach((answer) => answer.classList.remove("bonus"));
         footerText.classList.remove("bonus");
-        miniLuffy.style.display = "block";
+        // miniLuffy.style.display = "block";
 
         gameOverText.classList.remove("bonus");
         gameOverBtn.classList.remove("bonus");
