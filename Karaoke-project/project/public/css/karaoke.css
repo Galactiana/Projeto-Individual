@@ -12,14 +12,23 @@ body {
 }
 
 .karaoke-video {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 80vh;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .karaoke-controls button {
     margin: 5px;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 30px;
+    border-radius: 20px;
     cursor: pointer;
+    color: #e3dfe7;
+    background-color: #b07ac0;
+    border: solid #7d17c1;
+}
+
+.karaoke-controls button:hover {
+    background-color: #7d17c1;
 }
