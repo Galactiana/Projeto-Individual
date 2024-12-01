@@ -1068,9 +1068,9 @@ function clickStar2() {
     } else if (clicks == 15) {
         star2.setAttribute("data-before", "...");
     } else if (clicks == 16) {
-        star2.setAttribute("data-before", '"music2024"');
+        star2.setAttribute("data-before", '"NIKA"');
 
-        document.addEventListener("keydown", (event) => {
+        document.addEventListener("keydown", (event) => {np
             let key = event.key;
             let upperCaseKey = key.toUpperCase();
 
