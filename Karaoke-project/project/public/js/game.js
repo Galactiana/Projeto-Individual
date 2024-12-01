@@ -564,7 +564,7 @@ function checkAnswer(qNumber, answer) {
     const bonus = instructionBtn.getAttribute("data-bonus");
 
     //activate secret answer
-    if (currentQuestionNumber == 1 || currentQuestionNumber == 5 || currentQuestionNumber == 16) {
+    if (currentQuestionNumber == 1 || currentQuestionNumber == 5 || currentQuestionNumber == 15) {
         questionNumber.style.pointerEvents = "visible";
         questionNumber.addEventListener("mouseover", () => questionSvgPath.setAttribute("fill", "#ccc733"));
         questionNumber.addEventListener("mouseout", () => questionSvgPath.setAttribute("fill", "#3fbadc"));
@@ -574,7 +574,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 16) {
+    if (currentQuestionNumber == 15) {
         text20.style.pointerEvents = "visible";
         text20.classList.add("active");
     } else {
@@ -583,7 +583,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 25) {
+    if (currentQuestionNumber == 5) {
         text2.style.pointerEvents = "visible";
         text2.classList.add("active");
     } else {
@@ -592,7 +592,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 31 || currentQuestionNumber == 73) {
+    if (currentQuestionNumber == 11 || currentQuestionNumber == 19) {
         textAll.style.pointerEvents = "visible";
         textAll.classList.add("active");
     } else {
@@ -601,7 +601,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 40) {
+    if (currentQuestionNumber == 10) {
         myName.style.pointerEvents = "visible";
         myName.classList.add("active");
     } else {
@@ -611,7 +611,7 @@ function checkAnswer(qNumber, answer) {
 
     //check if it's the bonus quiz or not
     if (bonus == "false") {
-        if (currentQuestionNumber == 49 && chosenAnswer == decrypted) {
+        if (currentQuestionNumber == 9 && chosenAnswer == decrypted) {
             showScoreScreen();
         } else if (chosenAnswer == decrypted) {
             nextQuestion(currentQuestionNumber + 1);
@@ -619,7 +619,7 @@ function checkAnswer(qNumber, answer) {
             showGameOverScreen();
         }
     } else {
-        if (currentQuestionNumber == 74 && chosenAnswer == decrypted) {
+        if (currentQuestionNumber == 14 && chosenAnswer == decrypted) {
             showScoreScreenBonus();
         } else if (chosenAnswer == decrypted) {
             nextQuestion(currentQuestionNumber + 1);
@@ -930,25 +930,25 @@ function showProgressScreen() {
     percentProgress.textContent = `Progresso atual: ${progress}%`;
 
     if (recordScore == 7) {
-        titleProgress.textContent = "Título: Rei dos Piratas";
+        titleProgress.textContent = "Título: SuperStar";
         rankProgress.textContent = "Rank: S++";
     } else if (recordScore == 6) {
-        titleProgress.textContent = "Título: Yonkou";
+        titleProgress.textContent = "Título: especilista";
         rankProgress.textContent = "Rank: S+";
     } else if (recordScore == 5) {
-        titleProgress.textContent = "Título: Yonkou";
+        titleProgress.textContent = "Título: especialista";
         rankProgress.textContent = "Rank: S";
     } else if (recordScore == 4) {
-        titleProgress.textContent = "Título: Supernova";
+        titleProgress.textContent = "Título: Cantor comum";
         rankProgress.textContent = "Rank: A+";
     } else if (recordScore == 3) {
-        titleProgress.textContent = "Título: Supernova";
+        titleProgress.textContent = "Título: Cantos comum";
         rankProgress.textContent = "Rank: A";
     } else if (recordScore == 2) {
-        titleProgress.textContent = "Título: Pirata Comum";
+        titleProgress.textContent = "Título: Cantor iniciante";
         rankProgress.textContent = "Rank: B+";
     } else if (recordScore == 1) {
-        titleProgress.textContent = "Título: Pirata Comum";
+        titleProgress.textContent = "Título: Cantor iniciante";
         rankProgress.textContent = "Rank: B";
     } else {
         titleProgress.textContent = "Título: ???";
