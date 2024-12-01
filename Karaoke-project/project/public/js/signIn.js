@@ -43,7 +43,7 @@ function signIn() {
     let email = emailInput.value;
     let password = passwordInput.value;
 
-    fetch("http://localhost:3333/player", {
+    fetch("http://localhost:3333", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -53,7 +53,7 @@ function signIn() {
             password: password
         })
     }).then(res => {
-        if (res.status == 200) {
+        if (res.status === 200) {
             res.json().then(res => {
                 sessionStorage.setItem("idPlayer", res);
                 showLoadingScreen();

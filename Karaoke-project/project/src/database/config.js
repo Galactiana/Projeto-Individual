@@ -1,7 +1,7 @@
 const mysql = require("mysql2");
 
 const mySqlConfig = {
-    host: "127.0.0.1",
+    host: "localhost",
     database: "karaokeQuiz",
     user: "karol",
     password: "music2024"

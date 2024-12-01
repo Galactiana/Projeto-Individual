@@ -47,7 +47,7 @@ function signUp() {
     let password = passwordInput.value;
     let confirmPassword = confirmPasswordInput.value;
 
-    fetch("/player/save", {
+    fetch("http://localhost:3333/player/save", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
