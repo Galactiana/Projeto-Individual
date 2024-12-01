@@ -1,17 +1,17 @@
-CREATE DATABASE karaokeQuiz;
-USE karaokequiz;
+CREATE DATABASE KaraokeQuiz;
+USE KaraokeQuiz;
 
-CREATE USER 'karol'@'localhost' IDENTIFIED BY 'music2024';
-GRANT ALL PRIVILEGES ON karaokequiz.* TO 'karol'@'localhost';
+CREATE USER 'luffy'@'localhost' IDENTIFIED BY 'nika';
+GRANT ALL PRIVILEGES ON onepiecequiz.* TO 'luffy'@'localhost';
 FLUSH PRIVILEGES;
 
 CREATE TABLE Player (
 	idPlayer INT PRIMARY KEY AUTO_INCREMENT,
     nickname VARCHAR(20) NOT NULL UNIQUE,
     email VARCHAR(45) NOT NULL UNIQUE,
-    passwordd VARCHAR(45) NOT NULL,
+    password VARCHAR(45) NOT NULL,
     avatar VARCHAR(45) DEFAULT 'no-avatar',
-    title VARCHAR(45) DEFAULT 'Iniciante'
+    title VARCHAR(45) DEFAULT 'Figurante'
 );
 
 CREATE TABLE Score (
@@ -39,3 +39,5 @@ CREATE TABLE Feedback (
     FOREIGN KEY (fkPlayer) REFERENCES Player(idPlayer),
     PRIMARY KEY (idFeedback, fkPlayer)
 );
+
+select * from Player;
