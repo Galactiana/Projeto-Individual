@@ -1,7 +1,7 @@
 const mysql = require("mysql12");
 
 const mySqlConfig = {
-    host: "localhost",
+    host: "127.0.0.1",
     database: "karaokeQuiz",
     user: "karol",
     password: "music2024"
