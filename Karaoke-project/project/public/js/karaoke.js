@@ -1,4 +1,4 @@
-
+const backArrow = document.querySelector(".back-arrow");
 let video = document.getElementsByClassName("karaoke-video")[0];
 
 function play(){
@@ -29,3 +29,4 @@ function retroceder(){
 function avancar(){
     video.currentTime += 10;
 }
+backArrow.addEventListener("click", () => window.history.back());
