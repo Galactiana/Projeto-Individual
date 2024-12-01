@@ -559,7 +559,7 @@ function showGameOverScreenBonus() {
 function checkAnswer(qNumber, answer) {
     const currentQuestionNumber = parseInt(qNumber.value);
     const chosenAnswer = answer.textContent;
-    const rightAnswer = questions[currentQuestionNumber].answer;
+    const rightAnswer = questiions[currentQuestionNumber].answer;
     const decrypted = CryptoJS.AES.decrypt(rightAnswer, "questionAnswer").toString(CryptoJS.enc.Utf8);
     const bonus = instructionBtn.getAttribute("data-bonus");
 
