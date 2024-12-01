@@ -43,7 +43,7 @@ function signIn() {
     let email = emailInput.value;
     let password = passwordInput.value;
 
-    fetch("http://localhost:3333", {
+    fetch("player/authenticate", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

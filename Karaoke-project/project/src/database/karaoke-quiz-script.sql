@@ -11,7 +11,7 @@ CREATE TABLE Player (
     email VARCHAR(45) NOT NULL UNIQUE,
     passwordd VARCHAR(45) NOT NULL,
     avatar VARCHAR(45) DEFAULT 'no-avatar',
-    title VARCHAR(45) DEFAULT 'Figurante'
+    title VARCHAR(45) DEFAULT 'Iniciante'
 );
 
 CREATE TABLE Score (
