@@ -1068,7 +1068,7 @@ function clickStar2() {
     } else if (clicks == 15) {
         star2.setAttribute("data-before", "...");
     } else if (clicks == 16) {
-        star2.setAttribute("data-before", '"NIKA"');
+        star2.setAttribute("data-before", '"music2024"');
 
         document.addEventListener("keydown", (event) => {
             let key = event.key;
