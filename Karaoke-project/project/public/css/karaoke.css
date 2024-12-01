@@ -1,5 +1,11 @@
-
-
+@font-face {
+    font-family: Antic-Regular;
+    src: url("../assets/font/Antic-Regular.ttf");
+}
+* {
+    font-family: Antic-Regular;
+    
+}
 body {
     margin: 0;
     display: flex;
