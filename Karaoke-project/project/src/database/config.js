@@ -2,9 +2,9 @@ const mysql = require("mysql2");
 
 const mySqlConfig = {
     host: "localhost",
-    database: "OnePieceQuiz",
-    user: "luffy",
-    password: "nika"
+    database: "karaokeQuiz",
+    user: "karol",
+    password: "music2024"
 };
 
 function execute(instruction) {

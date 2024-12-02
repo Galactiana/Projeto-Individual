@@ -1,5 +1,5 @@
-CREATE DATABASE OnePieceQuiz;
-USE OnePieceQuiz;
+CREATE DATABASE KaraokeQuiz;
+USE KaraokeQuiz;
 
 CREATE USER 'luffy'@'localhost' IDENTIFIED BY 'nika';
 GRANT ALL PRIVILEGES ON onepiecequiz.* TO 'luffy'@'localhost';
