@@ -206,7 +206,7 @@ const q21 = {
     alt2: "Sustentar a respiração ✅",
     alt3: "Modificar a ressonância",
     alt4: "Controlar a intensidade da voz",
-    answer: "U2FsdGVkX1+qhpq5eldHO6eheZFFyoqFldlLQJq0M4I="
+    answer: "jVuHZOKKEH8tsOz+5FaTbkFVBj4IqdUNpPNHcRFCeOo="
 }
 
 const q22 = {
@@ -216,7 +216,7 @@ const q22 = {
     alt2: "Tchaikovsky ✅",
     alt3: "Mozart",
     alt4: "Vivaldi",
-    answer: "U2FsdGVkX1/I41gwMx9RAxxDPctRqTc3z6ty1YgYvog="
+    answer: "bBLnZ2m4ZGeN5AbzKVW2Fg=="
 }
 
 const q23 = {
@@ -226,7 +226,7 @@ const q23 = {
     alt2: "Barítono",
     alt3: "Tenor ✅",
     alt4: "Contratenor",
-    answer: "U2FsdGVkX1/gltQ2FZQzjJSn/Iu+MfNa/3i1tTtJq4E="
+    answer: "DtW+e8hmmeGiyXzxFb8DCg=="
 }
 
 const q24 = {
@@ -236,7 +236,7 @@ const q24 = {
     alt2: "Usar um registro nasal",
     alt3: "Cantar notas altas com potência ✅",
     alt4: "Controlar vibrato",
-    answer: "U2FsdGVkX19TNitMGxU2uxKNwLz7sZhRcBbC9xWFsRQ="
+    answer: "qqaAug92LRzDOZU7zhcS+Ez5d1EG1Mi/B+ZYBy2xEowyWMHC9UC0JwHXMGfNdT+8"
 }
 
 const q25 = {
@@ -246,7 +246,7 @@ const q25 = {
     alt2: "Tremolo",
     alt3: "Falsete",
     alt4: "Melisma",
-    answer: "U2FsdGVkX19+Q5xspWobgDgk9syC5OVnBFFIkHmw4o8="
+    answer: "7vM974eqRSuaF/eW+7R9RA=="
 }
 
 const q26 = {
@@ -256,7 +256,7 @@ const q26 = {
     alt2: "Handel",
     alt3: "Vivaldi ✅",
     alt4: "Mozart",
-    answer: "U2FsdGVkX19ek1sLoSE8tc1NAhcAxnNcgvuQnHwWtK0="
+    answer: "DtDUEunN2vuqsApnmDthMQ=="
 }
 
 const q27 = {
@@ -266,7 +266,7 @@ const q27 = {
     alt2: "Coral ✅",
     alt3: "Regente",
     alt4: "Pauta",
-    answer: "U2FsdGVkX1+k+ty2xsVNhiAh0nNNB4oecDx3zHYKWqA="
+    answer: "oRCMUiplEglf/2voDi+upA=="
 }
 
 const q28 = {
@@ -276,7 +276,7 @@ const q28 = {
     alt2: "Michael Jackson ✅",
     alt3: "VivFreddie Mercuryi",
     alt4: "Prince",
-    answer: "U2FsdGVkX1+w6iWl3Ye7V4I88w7xE8hKDpSj9MIr3v8="
+    answer: "sCTgzC6+HYirRZtCH5CTHw=="
 }
 
 const q29 = {
@@ -286,7 +286,7 @@ const q29 = {
     alt2: "Muito suave ✅",
     alt3: "Tocar com rapidez",
     alt4: "Tocar com intensidade",
-    answer: "U2FsdGVkX19yR64+sXf8PTXrk20HdLp4UyBpKhL73ok="
+    answer: "AUtS6TIaQ9TBFwjMuZoxdQ=="
 }
 
 const q30 = {
@@ -296,7 +296,7 @@ const q30 = {
     alt2: "Uma extensão nasal",
     alt3: "Um registro artificialmente agudo ✅",
     alt4: "Uma técnica de melisma",
-    answer: "U2FsdGVkX19GU1kKvVTMlAuj2YwbVhU5SkTn6bZ+nzE="
+    answer: "jpfV5YhzLdsJKbt/p6tCkZoG9n3SaKfRttuUdi860iMYOEo7Ch5tqNoUYPsonQRn"
 }
 
 const q31 = {
@@ -306,7 +306,7 @@ const q31 = {
     alt2: "Mozart ✅",
     alt3: "Bach",
     alt4: "Schubert",
-    answer: "U2FsdGVkX181dIWcN4Pnf6mhPMH8Ji4J2db8bjmxBxI="
+    answer: "d8sfRhDwdABH2BL9W28Fcw=="
 }
 
 const q32 = {
@@ -316,7 +316,7 @@ const q32 = {
     alt2: "Controlar a postura ✅",
     alt3: "Usar um microfone potente",
     alt4: "Evitar técnicas de respiração",
-    answer: "U2FsdGVkX1/jwX3C0IoCCdbNdnpYdDLjHwnmEN7Y7is="
+    answer: "41HncgArHNQPvHhKtJp2/nVHsx5USjTQ3857Nifkrp8="
 }
 
 const q33 = {
@@ -326,7 +326,7 @@ const q33 = {
     alt2: "Moderadamente lento ✅",
     alt3: "Muito suave",
     alt4: "Apressado",
-    answer: "U2FsdGVkX1/oOpS96ShO4EYlGi4AsG/IDmLdrvGl544="
+    answer: "tjQvivoOtHE2y2KkjYO/kPVHSsC+FSDfqSnaMJiT7oA="
 }
 
 const q34 = {
@@ -336,7 +336,7 @@ const q34 = {
     alt2: "Miles Davis",
     alt3: "Louis Armstrong ✅",
     alt4: "John Coltrane",
-    answer: "U2FsdGVkX18ymPZngi5Cs91KyfoUwbyOFUDLA6JrxTo="
+    answer: "Rgv6TpI27x3clUKYhFq+ww=="
 }
 
 const q35 = {
@@ -346,7 +346,7 @@ const q35 = {
     alt2: "8",
     alt3: "12 ✅",
     alt4: "16",
-    answer: "U2FsdGVkX1+CILRll8OTL+9U213oDgoMj9HPhcit+5Y="
+    answer: "Rgv6TpI27x3clUKYhFq+ww=="
 }
 
 const q36 = {
@@ -356,7 +356,7 @@ const q36 = {
     alt2: "Diminuir o ritmo gradualmente ✅",
     alt3: "Sustentar as notas",
     alt4: "Tocar com intensidade",
-    answer: "U2FsdGVkX1+4OIVb0HN1/wR38iQ4cAE/yUJUzLGjNGg="
+    answer: "EiZIH+ivjTZ1Qgzf18+tSOjWqYLPopp+Z6A/+iN+sAY="
 }
 
 const q37 = {
@@ -366,7 +366,7 @@ const q37 = {
     alt2: "Uma melodia repetida em diferentes vozes ✅",
     alt3: "Uma sequência de notas aleatórias",
     alt4: "Um tipo de instrumento de cordas",
-    answer: "U2FsdGVkX1+I29vBXhzADcID7yD/KTT3LKI4MtameaI="
+    answer: "+/+VVa3SPKyJuzsnt3dG5oDJBqFXUF9ttKW6MNArdhyDSWeDDpjBfD/JPS/hmOBe"
 }
 
 const q38 = {
@@ -376,7 +376,7 @@ const q38 = {
     alt2: "Melhorar a respiração",
     alt3: "Preparar as cordas vocais para evitar lesões ✅",
     alt4: "Aumentar a extensão vocal",
-    answer: "U2FsdGVkX18ce5uVjyULmnAKWuYr/nBo/smbXzbPzrk="
+    answer: "wpS4nN1Md3cQK6ZeJPfWqwnYy5+2hyjXLZ8Is0RnwmW4QuDaKPOea+5pcwAyUEhx"
 }
 
 const q39 = {
@@ -386,7 +386,7 @@ const q39 = {
     alt2: "Aretha Franklin ✅",
     alt3: "Mariah Carey",
     alt4: "Beyoncé",
-    answer: "U2FsdGVkX1+N0AI91wydqwjdblh1hE+5ixXJQKD5F1s="
+    answer: "jETeMEb4lW179JLfkN337Q=="
 }
 
 const q40 = {
@@ -396,7 +396,7 @@ const q40 = {
     alt2: "Um som triste e melancólico ✅",
     alt3: "Um som dissonante",
     alt4: "Um som rápido e enérgico",
-    answer: "U2FsdGVkX189rdzOzCr6TQrhKgQJ9SgXHv3U+FClOXo="
+    answer: "yaQGdW32aK96rMhZTHTm6vECHn3kCzZSDeFpjxcjfYw="
 }
 
 const q41 = {
@@ -406,7 +406,7 @@ const q41 = {
     alt2: "Muito suave",
     alt3: "Moderadamente forte",
     alt4: "Tocando com rapidez",
-    answer: "U2FsdGVkX1881j2a7tt8PNZeyxGQpqqUgAJJ/Wu3eMk="
+    answer: "VztveFz4kcmsFs2U1tPgWw=="
 }
 
 const q42 = {
@@ -416,7 +416,7 @@ const q42 = {
     alt2: "Respiração diafragmática",
     alt3: "Vibrato natural",
     alt4: "Vocal fry",
-    answer: "U2FsdGVkX18cZQGcyWvwd8/vwqEPk60bWsr5aOTLyGQ="
+    answer: "XLrDV8KJ9u7egJzI4YcQYg=="
 }
 
 const q43 = {
@@ -426,7 +426,7 @@ const q43 = {
     alt2: "A frequência de uma nota",
     alt3: "A distância entre duas notas ✅",
     alt4: "A duração de uma melodia",
-    answer: "U2FsdGVkX190xy9DFm+bV/mlNmYeLZszjMeBL1Dx1yw="
+    answer: "v5x44IoYpZEnmTKhHPxZkX99O7dYLf+adOEM32MBTFU="
 }
 
 const q44 = {
@@ -436,7 +436,7 @@ const q44 = {
     alt2: "Mozart ✅",
     alt3: "Beethoven",
     alt4: "Vivaldi",
-    answer: "U2FsdGVkX1+WLcnpAAETAE30AW2Wq5SE1za1swovCBw="
+    answer: "d8sfRhDwdABH2BL9W28Fcw=="
 }
 
 const q45 = {
@@ -446,7 +446,7 @@ const q45 = {
     alt2: "Clareza e alcance ✅",
     alt3: "Alto volume constante",
     alt4: "Exclusão de vibrato",
-    answer: "U2FsdGVkX18qZcF4Hru+aYVgoWl/JpLB9cQYLyyHlyE="
+    answer: "4ERFBK1vbwzspclGs6zNfu+EEKbcuTGlEea5pN417JE="
 }
 
 const q46 = {
@@ -456,7 +456,7 @@ const q46 = {
     alt2: "Barítono",
     alt3: "Baixo ✅",
     alt4: "Contratenor",
-    answer: "U2FsdGVkX1+PnqV2TGTVui3TExY2b7HsoyTPNKizvoc="
+    answer: "6Gr7gMaX8lej7URh6bCnYQ=="
 }
 
 const q47 = {
@@ -466,7 +466,7 @@ const q47 = {
     alt2: "Notas curtas e destacadas ✅",
     alt3: "Notas tocadas em sequência",
     alt4: "Notas com aumento gradual de volume",
-    answer: "U2FsdGVkX19G30UKLIHQTK3e3ZXY3bLZw5SdjuDdstk="
+    answer: "L26+Whf5VSBvj47Tc1dgFVHzwzP7jMWEWiBq8i7DTIw="
 }
 
 const q48 = {
@@ -476,7 +476,7 @@ const q48 = {
     alt2: "Mudar rapidamente entre notas ✅",
     alt3: "Cantar com um vibrato forte",
     alt4: "Diminuir o volume gradualmente",
-    answer: "U2FsdGVkX1/aPtNgC6iF+vFV/9ON2w91pSjEEhMPt/A="
+    answer: "36AaayuCku5zuu66l/CPZ9DOYv3DLnpbPWy9dddOzV4="
 }
 
 const q49 = {
@@ -486,7 +486,7 @@ const q49 = {
     alt2: "Chopin",
     alt3: "Vivaldi ✅",
     alt4: "Schubert",
-    answer: "U2FsdGVkX1+aaDSX1iRij4ANGZA/hS58d8IUFl1aMPg="
+    answer: "DtDUEunN2vuqsApnmDthMQ=="
 }
 
 const q50 = {
@@ -496,7 +496,7 @@ const q50 = {
     alt2: "Ter uma afinação precisa ✅",
     alt3: "Cantar em registro grave",
     alt4: "Conhecer escalas maiores",
-    answer: "U2FsdGVkX1/h+C9bp4iXIPRznb/ZBaUgYJqv+5s98/U="
+    answer: "KQWaLcJDkmlwI+gr5ij2A/b1qtFMwg7oN93WYQouJeg="
 }
 
 const q51 = {
@@ -506,7 +506,7 @@ const q51 = {
     alt2: "Indicar o ritmo",
     alt3: "Marcar a altura das notas ✅",
     alt4: "Definir a duração das notas",
-    answer: "U2FsdGVkX1/1wA1nYMcyZb9EjvYkNoUEmU87ZbRYRV4="
+    answer: "Vm21JLHiMZ7W1eO4iDGpQaa0/hjd8/6f3pJxE/3iYXE="
 }
 
 const q52 = {
@@ -516,7 +516,7 @@ const q52 = {
     alt2: "Aumentar o volume gradualmente ✅",
     alt3: "Cantar notas mais agudas",
     alt4: "Tocar de forma mais rápida",
-    answer: "U2FsdGVkX1/acSKejyoaa0kJcFFX/Xzz5Te6kN1agag="
+    answer: "Z32lijZGRIQs3YdWV3aWPW/qzklsSmi0IU2pHJr6xzg="
 }
 
 const q53 = {
@@ -526,7 +526,7 @@ const q53 = {
     alt2: "Sons agudos e leves ✅",
     alt3: "Sons médios e sem vibrato",
     alt4: "Sons abafados",
-    answer: "U2FsdGVkX1/B4A8pBfE8lits+agZUYvPFGg4izVlHz0="
+    answer: "5coGdQ/wwP08eaHDAh021mAKOthiytUw7ElRjd94u+4="
 }
 
 const q54 = {
@@ -536,7 +536,7 @@ const q54 = {
     alt2: "Múltiplas melodias tocadas simultaneamente ✅",
     alt3: "Apenas instrumentos de cordas",
     alt4: "Uso exclusivo de percussão",
-    answer: "U2FsdGVkX1/lVghCQOe9QCmBwAfkCky8o00bJ5I/a/Q="
+    answer: "i4IOxwow0k80nIwLm4pfWszYrpoDFeVI8ccRn7r0h29Np2x8QvZS6PiG5J4NmWzl"
 }
 
 const q55 = {
@@ -546,7 +546,7 @@ const q55 = {
     alt2: "Bizet ✅",
     alt3: "Wagner",
     alt4: "Bach",
-    answer: "U2FsdGVkX1/JGELZ8eI68Jn2qdDhp1S6+8/t4vEQl0w="
+    answer: "qyfN83tUCEC/Nc7otaTcvQ=="
 }
 
 const q56 = {
@@ -556,7 +556,7 @@ const q56 = {
     alt2: "A qualidade ou cor do som ✅",
     alt3: "A frequência do som",
     alt4: "A altura do som",
-    answer: "U2FsdGVkX1/8RN2JmcWnKP2DYtC3YV8B2wTGMaIe4Cs="
+    answer: "m2waraHKT+DHFSVVFXZ+1QnpTEYLTscWYF+8bbUvvQQ="
 }
 
 const q57 = {
@@ -566,7 +566,7 @@ const q57 = {
     alt2: "Conduzir a execução musical ✅",
     alt3: "Compor as partituras",
     alt4: "Afinar os instrumentos",
-    answer: "U2FsdGVkX193M5Il/y92Izv+UaHYWSy42R3nr/R/46I="
+    answer: "B0vyww6oMIku4+qZ3u5QOS3xNte5Hhtt03j9sm+oUdY="
 }
 
 const q58 = {
@@ -576,7 +576,7 @@ const q58 = {
     alt2: "Canto sem acompanhamento instrumental ✅",
     alt3: "Canto com acompanhamento de piano",
     alt4: "Canto em registros agudos",
-    answer: "U2FsdGVkX18NeS0Kvht+mAw4YynMO3GvSXdZ3jYE4ao="
+    answer: "mXk2WqMPTTBZCh46WRoHjdvWRz6AYIhzPMjqIDRP2NnEvoRdE6Ote2m++rTKaZ8t"
 }
 
 const q59 = {
@@ -586,7 +586,7 @@ const q59 = {
     alt2: "Diminuir o volume gradualmente ✅",
     alt3: "Cantar notas mais rápidas",
     alt4: "Tocar de forma mais expressiva",
-    answer: "U2FsdGVkX18U2DdPAEiXVdL1g+At+M1HruigAfkqeu0="
+    answer: "a90vP+MIF7x0L4Kv1N9Aom/qzklsSmi0IU2pHJr6xzg="
 }
 
 const q60 = {
@@ -596,7 +596,7 @@ const q60 = {
     alt2: "Dinâmicas ✅",
     alt3: "Legato",
     alt4: "Andamento",
-    answer: "U2FsdGVkX19erBqUp2Mz8+zbU5FbbGcaBTgYE9W/FVs="
+    answer: "1VbRHtAcYLVRsaHcmXLKhA=="
 }
 
 const q61 = {
@@ -606,7 +606,7 @@ const q61 = {
     alt2: "Mozart ✅",
     alt3: "Tchaikovsky",
     alt4: "Schumann",
-    answer: "U2FsdGVkX1/6FfgHMIm626Z5w00YrmKajXgmrJ0zbG0="
+    answer: "d8sfRhDwdABH2BL9W28Fcw=="
 }
 
 const q62 = {
@@ -616,7 +616,7 @@ const q62 = {
     alt2: "Cantar sem acompanhamento instrumental ✅",
     alt3: "Tocar com instrumentos de corda",
     alt4: "Cantar apenas com percussão",
-    answer: "U2FsdGVkX19lV0VfRkGcJy6pCvQYujOrbnjCa52sSlw="
+    answer: "lu9XP8DvKS6lx6oBLJ4pr38w8vsmqIg1Zuc9Sm0S1DVv5POp1nvStFsc76f03aYI"
 }
 
 const q63 = {
@@ -626,7 +626,7 @@ const q63 = {
     alt2: "Mozart",
     alt3: "Debussy ✅",
     alt4: "Liszt",
-    answer: "U2FsdGVkX18RgahlJF3q5/8jxQvNuo+JPEI0D3NQu1s="
+    answer: "pMAxS/CMx3SDUD41Tc/u/g=="
 }
 
 const q64 = {
@@ -636,7 +636,7 @@ const q64 = {
     alt2: "Quarta aumentada",
     alt3: "Terça maior",
     alt4: "Oitava justa",
-    answer: "U2FsdGVkX1/v7+m0cr3zcibPm6GVkxQyhb2eV7ZOb94p37VpeVGDeez2vO8UWRUz"
+    answer: "tav0g5M2klACAN5aqIkb8A=="
 }
 
 const q65 = {
@@ -646,7 +646,7 @@ const q65 = {
     alt2: "Tocar de forma forte e intensa ✅",
     alt3: "Tocar rapidamente",
     alt4: "Tocar com notas curtas",
-    answer: "U2FsdGVkX18NDfkyiNFcnotcSB6yzFpKa8H5kGG/EEc="
+    answer: "FAKS2VXF02CJrdltPQneEn1mWQb6FFk/8+xenhq3VH8="
 }
 
 const q66 = {
@@ -656,7 +656,7 @@ const q66 = {
     alt2: "Um deslizamento contínuo entre notas ✅",
     alt3: "Uma repetição de notas em harmonia",
     alt4: "Um vibrato forte",
-    answer: "U2FsdGVkX1+nYuZFuUqxLfoHbNPVA5dDOe8369AUfbZAXGYTUfls1Kfw9jpyF1RU"
+    answer: "noSTdsdGhhDphWo1zuT0jUxupaD6YjjM6AxKSUP0ft7uqAKpJ7/TJLwdvZ3jupYd"
 }
 
 const q67 = {
@@ -666,7 +666,7 @@ const q67 = {
     alt2: "O tenor canta em um registro mais agudo ✅",
     alt3: "O barítono tem mais volume",
     alt4: "O barítono possui mais extensão vocal",
-    answer: "U2FsdGVkX1/qHofo+5zZUZJZdGsQo82aZgiZHK/UnSc="
+    answer: "fays7k8ZC/C/cug6qQGLjIqrLLi8CqF5ZA2raI1VcgsbqNalI7chJpSY0AgeWvw9"
 }
 
 const q68 = {
@@ -676,7 +676,7 @@ const q68 = {
     alt2: "Igor Stravinsky",
     alt3: "Amou demais",
     alt4: "Hector Berlioz",
-    answer: "U2FsdGVkX1++igVeoJUBy2dfBzgqgwTUNjF4PUJI1Rs="
+    answer: "0Vvt569gb+r5zDus86VkjQ=="
 }
 
 const q69 = {
@@ -686,7 +686,7 @@ const q69 = {
     alt2: "Moderadamente rápido ✅",
     alt3: "Muito suave",
     alt4: "Moderadamente lento",
-    answer: "U2FsdGVkX1+xMWteM0CKRWT72nUqT9+9v6FSLiriT0M="
+    answer: "AVZaoYskduSJtSgRCdTw3A6Cm0q4DHfHlzRYOZW6P2k="
 }
 
 const q70 = {
@@ -696,7 +696,7 @@ const q70 = {
     alt2: "Barítono ✅",
     alt3: "Contratenor",
     alt4: "Baixo",
-    answer: "U2FsdGVkX1+iQXJAf3XP3PGsGgRz+EpJDhWZ8+lMNqc="
+    answer: "oLqcQaJPT1Ajt+gnb4GGFA=="
 }
 
 const q71 = {
@@ -706,7 +706,7 @@ const q71 = {
     alt2: "Um símbolo que indica a altura das notas na pauta ✅",
     alt3: "Um ritmo específico",
     alt4: "Uma variação no volume",
-    answer: "U2FsdGVkX18ErgGzLQw+rY4NbgzGWXw527SxH6cW93M="
+    answer: "fHPCkR6Rs9pshCfCbWOtIaol12btFuzJRu6qU3GBipJwCCgZc7CNKor1RpddImVwRfnbIhyYG40ilqZwNijAWw=="
 }
 
 const q72 = {
@@ -716,7 +716,7 @@ const q72 = {
     alt2: "Tocar com intensidade",
     alt3: "Tocar rapidamente",
     alt4: "Tocar com pausas",
-    answer: "U2FsdGVkX1960IKm0I5dDjHcibSn1vfRF53gxcnb5mU="
+    answer: "FSd3Bi+gzqkNWBZHN8yL0FTwjg8/i8PdRu+TedcT2qY="
 }
 
 const q73 = {
@@ -726,7 +726,7 @@ const q73 = {
     alt2: "Claudio Monteverdi ✅",
     alt3: "Wolfgang Amadeus Mozart",
     alt4: "Richard Wagner",
-    answer: "U2FsdGVkX1+Mek5MTXl8I5sY7nLVELRGUaix2VLhyck="
+    answer: "LKcH6Uj/Wf/F8IoMNWyAiTAJWowdipXVYaW482GKO3g="
 }
 
 const q74 = {
@@ -736,7 +736,7 @@ const q74 = {
     alt2: "Notas tocadas simultaneamente",
     alt3: "Uma técnica de vibrato no canto",
     alt4: "Um tipo de dinâmica musical",
-    answer: "U2FsdGVkX18qqQfXwMp5TsS4cs6fJ4OrmRqhGxDjYmo="
+    answer: "hFBXpy1jcPC4kg4jjngJogma5TCieHDRHaxSP0+QaEmGI6oPENmSP8JYYhR3JIJF"
 }
 
 const q75 = {
@@ -746,7 +746,7 @@ const q75 = {
     alt2: "Linhas melódicas simples e emocionais ✅",
     alt3: "Rápidos movimentos melódicos",
     alt4: "Exclusão de instrumentos de percussão",
-    answer: "U2FsdGVkX1+RGob2Au7mpnQfkO62KXtIJtGIESz/TPE="
+    answer: "sOBGgy5+GolSGFEqVTKoZKroILzBk83nfkZcXmUhQIo99G4EcbkqtEfCeoWiMiOi"
 }
 
 const questions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31, q32, q33, q34, q35, q36, q37, q38, q39, q40, q41, q42, q43, q44, q45, q46, q47, q48, q49, q50, q51, q52, q53, q54, q55, q56, q57, q58, q59, q60, q61, q62, q63, q64, q65, q66, q67, q68, q69, q70, q71, q72, q73, q74, q75];
