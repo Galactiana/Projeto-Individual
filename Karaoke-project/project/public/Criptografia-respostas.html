@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criptografia AES em JavaScript</title>
+  
+  <!-- Inclui o CryptoJS via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <h1>Criptografia AES</h1>
+
+  <input type="texto-claro" id="texto_claro" placeholder="Digite para Criptografar">
+  <button onclick="criptografar()">Criptografar</button>
+  <p>Texto original: <span id="texto-original"></span></p>
+  <p>Texto cifrado: <span id="texto-cifrado"></span></p>
+  <p>Texto Decifrado: <span id="texto-decifrado"></span></p>
+  <p>Texto Criptado:<span id="texto-criptado"></span></p>
+
+  <script>
+
+    function criptografar(){
+    // Definir a chave AES (16 bytes)
+    const chave = CryptoJS.enc.Utf8.parse('7fdsf7df8sd9sd8f'); // chave de 16 bytes
+
+    // Texto a ser criptografado
+    const textoClaro = texto_claro.value;
+
+    const textoCriptado = "U2FsdGVkX1+qhpq5eldHO6eheZFFyoqFldlLQJq0M4I="
+
+    // Criptografar o texto usando AES no modo ECB
+    const textoCifrado = CryptoJS.AES.encrypt(textoClaro, chave, {
+      mode: CryptoJS.mode.ECB,
+      padding: CryptoJS.pad.Pkcs7
+    });
+
+    // Descriptografar o texto cifrado
+const textoDecifrado = CryptoJS.AES.decrypt(textoCifrado, chave, {
+  mode: CryptoJS.mode.ECB,
+  padding: CryptoJS.pad.Pkcs7
+}).toString(CryptoJS.enc.Utf8);
+
+// Imprimir o texto decifrado
+console.log(textoDecifrado);
+
+
+    // Exibir o resultado cifrado no formato Base64
+    document.getElementById("texto-decifrado").textContent = textoDecifrado.toString();
+    document.getElementById("texto-original").textContent = textoClaro.toString();
+    document.getElementById("texto-cifrado").textContent = textoCifrado.toString();
+  }
+  </script>
+</body>
+</html>
