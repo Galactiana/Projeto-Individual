@@ -10,9 +10,9 @@
 }
 
 :root {
-    --primary-color: #ae4bd2;
-    --secondary-color: #421b53;
-    --white-color: #ffffff;
+    --primary-color: #4B97D2;
+    --secondary-color: #1b4053;
+    --red-color: #D70000;
     --yellow-color: #FFCC00;
 }
 
@@ -24,7 +24,7 @@ body {
     display: flex;
     font-family: Montserrat;
     height: 100%;
-    background: linear-gradient(179.35deg, rgba(237, 204, 215, 0.96) 18.36%, rgba(235, 201, 215, 0.96) 26.27%, rgba(231, 196, 216, 0.96) 45.55%, rgba(228, 193, 217, 0.96) 50.99%, rgba(224, 191, 221, 0.96) 58.9%, rgba(222, 190, 223, 0.96) 67.31%, rgba(220, 189, 225, 0.96) 78.18%, rgba(216, 187, 228, 0.96) 87.08%, rgba(211, 185, 232, 0.96) 91.53%, rgba(204, 176, 236, 0.96) 99.44%);
+    background: linear-gradient(179.35deg, rgba(237, 204, 215, 0.96) 18.36%, rgba(235, 201, 215, 0.96) 26.27%, rgba(231, 196, 216, 0.96) 45.55%, rgba(228, 193, 217, 0.96) 50.99%, rgba(224, 191, 221, 0.96) 58.9%, rgba(222, 190, 223, 0.96) 67.31%, rgba(220, 189, 225, 0.96) 78.18%, rgba(216, 187, 228, 0.96) 87.08%, rgba(211, 185, 232, 0.96) 91.53%, rgba(204, 176, 236, 0.96) 99.44%), url('../assets/image/fundo-musica.png');
     background-position: center;
     background-repeat: repeat;
     background-size: 30%;
@@ -32,7 +32,7 @@ body {
 }
 
 body.gray {
-    /* background: linear-gradient(0deg, rgba(39, 46, 50, 0.86) 0%, rgba(39, 46, 50, 0.86) 100%), url("../assets/image/general-background.png"); */
+    background: linear-gradient(0deg, rgba(39, 46, 50, 0.86) 0%, rgba(39, 46, 50, 0.86) 100%), url("../assets/image/general-background.png");
     background-position: center;
     background-repeat: repeat;
     background-size: 30%;
@@ -41,7 +41,7 @@ body.gray {
 .menu {
     color: #ffffff;
     width: 16%;
-    background-color: #1b40537d;
+    background: rgba(197, 161, 238, 0.406);
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     display: flex;
@@ -112,7 +112,7 @@ body.gray {
 }
 
 .nav-link:hover {
-    background-color: #4b98d240;
+    background-color: #c295daf2;
 }
 
 .menu .line-3 {
@@ -197,11 +197,11 @@ body.gray {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.6);
-    width: 700px;
-    height: 500px;
+    width: 830px;
+    height: 600px;
     padding: 28px;
     border-radius: 32px;
-    background-color: #24556d;
+    background-color: #63158e7d;
     box-shadow: 0 0 4px #1d1d1d3c;
     display: flex;
     flex-direction: column;
@@ -271,7 +271,7 @@ body.gray {
 }
 
 .settings-container .line-2 .column-1 button:hover {
-    background-color: #4b98d240;
+    background-color: #63158e7d;
 }
 
 .settings-container .line-2 .column-1 button img {
@@ -423,7 +423,7 @@ body.gray {
     margin: 8px 0;
     padding: 12px;
     color: #ffffff;
-    background-color: #24556d;
+    background-color: #63158e7d;
 }
 
 .input-container input::selection {
@@ -479,7 +479,7 @@ body.gray {
 }
 
 #saveEditionBtn:hover {
-    color: #24556d;
+    color: #663187;
     background-color: #ffffff;
 }
 
@@ -493,7 +493,7 @@ body.gray {
     height: 210px;
     padding: 28px;
     border-radius: 32px;
-    background-color: #24556d;
+    background-color: #63158e7d;
     box-shadow: 0 0 4px #1d1d1d3c;
     display: flex;
     flex-direction: column;
@@ -516,6 +516,7 @@ body.gray {
 .settings-container.active,
 .confirm-logout.active {
     transform: translate(-50%, -50%) scale(1);
+    background-color: #63158e7d;
 }
 
 .confirm-logout h1 {
@@ -598,7 +599,7 @@ body.gray {
     height: 320px;
     padding: 28px;
     border-radius: 32px;
-    background-color: #24556d;
+    background-color: #63158e7d;
     box-shadow: 0 0 4px #1d1d1d3c;
     display: flex;
     flex-direction: column;

@@ -4,9 +4,9 @@
 }
 
 :root {
-    --primary-color: #9c2dc4;
-    --secondary-color: #b67ad3;
-    --red-color: #ffffff;
+    --primary-color: #4B97D2;
+    --secondary-color: #1b4053;
+    --red-color: #D70000;
     --yellow-color: #FFCC00;
 }
 
@@ -24,7 +24,7 @@ body {
     color: #ffffff;
     font-family: Montserrat;
     height: 100%;
-    background: linear-gradient(179.35deg, rgba(237, 204, 215, 0.96) 18.36%, rgba(235, 201, 215, 0.96) 26.27%, rgba(231, 196, 216, 0.96) 45.55%, rgba(228, 193, 217, 0.96) 50.99%, rgba(224, 191, 221, 0.96) 58.9%, rgba(222, 190, 223, 0.96) 67.31%, rgba(220, 189, 225, 0.96) 78.18%, rgba(216, 187, 228, 0.96) 87.08%, rgba(211, 185, 232, 0.96) 91.53%, rgba(204, 176, 236, 0.96) 99.44%);
+    background: linear-gradient(0deg, rgba(27, 64, 83, 0.86) 0%, rgba(27, 64, 83, 0.86) 100%), url("../assets/image/general-background.png");
     background-position: center;
     background-repeat: repeat;
     background-size: 30%;
@@ -32,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-    
+
 h1::selection,
 br::selection,
 p::selection,
@@ -93,7 +93,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FDFBF6;
+    background-color: #1b40537d;
     width: 480px;
     border-radius: 32px;
     padding: 36px 32px;
@@ -143,7 +143,7 @@ a {
 
 .input {
     font-size: 1rem;
-    color: #9c2dc4;
+    color: #ffffff;
     padding: 12px 12px 12px 40px;
     margin: 16px 0;
     border: none;
@@ -161,7 +161,7 @@ a {
 
 .input:focus {
     outline: none;
-    background-color: rgba(165, 126, 180, 0.44);
+    background-color: rgba(27, 64, 83, 0.44);
 }
 
 .input::-webkit-input-placeholder {
@@ -187,7 +187,7 @@ a {
 .forgot-password-text {
     align-self: flex-end;
     font-weight: 500;
-    color: #9c2dc4;
+    color: #ffffff;
     transition: all .2s ease-in-out;
 }
 
@@ -212,7 +212,7 @@ a {
 }
 
 #submitBtn:hover {
-    background-color: #7d17c1;
+    background-color: #6ba4cf;
 }
 
 #submitBtn:focus {
@@ -221,12 +221,11 @@ a {
 
 #submitBtn:disabled {
     cursor: no-drop;
-    background-color: #7d17c1;
+    background-color: #6ba4cf8f;
     color: #ffffff8f;
 }
 
 .new-account-text {
-    color: black;
     margin: 4px 0 8px 0;
     font-weight: 500;
     text-align: center;
@@ -238,7 +237,7 @@ a {
 }
 
 .new-account-text a:hover {
-    color: #b386db;
+    color: #86b6db;
 }
 
 .back-arrow {
@@ -248,7 +247,7 @@ a {
     height: 44px;
     align-self: center;
     border-radius: 50%;
-    background-color: rgba(52, 27, 83, 0.44);
+    background-color: rgba(27, 64, 83, 0.44);
     transition: all .4s ease-in-out;
     cursor: pointer;
     user-select: none;
@@ -279,7 +278,7 @@ a {
     height: 320px;
     padding: 28px;
     border-radius: 32px;
-    background-color: #58246d;
+    background-color: #24556d;
     box-shadow: 0 0 4px #1d1d1d3c;
     display: flex;
     flex-direction: column;
@@ -423,7 +422,7 @@ a {
 .circle-core {
     width: 100%;
     height: 100%;
-    background-color: #50246d;
+    background-color: #24556d;
     border-radius: 50%;
 }
 

@@ -141,7 +141,7 @@ function removeBonusAttributes() {
         questionText.classList.remove("bonus");
         answers.forEach((answer) => answer.classList.remove("bonus"));
         footerText.classList.remove("bonus");
-        // miniLuffy.style.display = "block";
+        miniLuffy.style.display = "block";
 
         gameOverText.classList.remove("bonus");
         gameOverBtn.classList.remove("bonus");
@@ -559,12 +559,12 @@ function showGameOverScreenBonus() {
 function checkAnswer(qNumber, answer) {
     const currentQuestionNumber = parseInt(qNumber.value);
     const chosenAnswer = answer.textContent;
-    const rightAnswer = questiions[currentQuestionNumber].answer;
+    const rightAnswer = questions[currentQuestionNumber].answer;
     const decrypted = CryptoJS.AES.decrypt(rightAnswer, "questionAnswer").toString(CryptoJS.enc.Utf8);
     const bonus = instructionBtn.getAttribute("data-bonus");
 
     //activate secret answer
-    if (currentQuestionNumber == 1 || currentQuestionNumber == 5 || currentQuestionNumber == 15) {
+    if (currentQuestionNumber == 1 || currentQuestionNumber == 5 || currentQuestionNumber == 16) {
         questionNumber.style.pointerEvents = "visible";
         questionNumber.addEventListener("mouseover", () => questionSvgPath.setAttribute("fill", "#ccc733"));
         questionNumber.addEventListener("mouseout", () => questionSvgPath.setAttribute("fill", "#3fbadc"));
@@ -574,7 +574,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 15) {
+    if (currentQuestionNumber == 16) {
         text20.style.pointerEvents = "visible";
         text20.classList.add("active");
     } else {
@@ -583,7 +583,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 5) {
+    if (currentQuestionNumber == 25) {
         text2.style.pointerEvents = "visible";
         text2.classList.add("active");
     } else {
@@ -592,7 +592,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 11 || currentQuestionNumber == 19) {
+    if (currentQuestionNumber == 31 || currentQuestionNumber == 73) {
         textAll.style.pointerEvents = "visible";
         textAll.classList.add("active");
     } else {
@@ -601,7 +601,7 @@ function checkAnswer(qNumber, answer) {
     }
 
     //activate secret answer
-    if (currentQuestionNumber == 10) {
+    if (currentQuestionNumber == 40) {
         myName.style.pointerEvents = "visible";
         myName.classList.add("active");
     } else {
@@ -611,7 +611,7 @@ function checkAnswer(qNumber, answer) {
 
     //check if it's the bonus quiz or not
     if (bonus == "false") {
-        if (currentQuestionNumber == 9 && chosenAnswer == decrypted) {
+        if (currentQuestionNumber == 49 && chosenAnswer == decrypted) {
             showScoreScreen();
         } else if (chosenAnswer == decrypted) {
             nextQuestion(currentQuestionNumber + 1);
@@ -619,7 +619,7 @@ function checkAnswer(qNumber, answer) {
             showGameOverScreen();
         }
     } else {
-        if (currentQuestionNumber == 14 && chosenAnswer == decrypted) {
+        if (currentQuestionNumber == 74 && chosenAnswer == decrypted) {
             showScoreScreenBonus();
         } else if (chosenAnswer == decrypted) {
             nextQuestion(currentQuestionNumber + 1);
@@ -930,25 +930,25 @@ function showProgressScreen() {
     percentProgress.textContent = `Progresso atual: ${progress}%`;
 
     if (recordScore == 7) {
-        titleProgress.textContent = "Título: SuperStar";
+        titleProgress.textContent = "Título: Rei dos Piratas";
         rankProgress.textContent = "Rank: S++";
     } else if (recordScore == 6) {
-        titleProgress.textContent = "Título: especilista";
+        titleProgress.textContent = "Título: Yonkou";
         rankProgress.textContent = "Rank: S+";
     } else if (recordScore == 5) {
-        titleProgress.textContent = "Título: especialista";
+        titleProgress.textContent = "Título: Yonkou";
         rankProgress.textContent = "Rank: S";
     } else if (recordScore == 4) {
-        titleProgress.textContent = "Título: Cantor comum";
+        titleProgress.textContent = "Título: Supernova";
         rankProgress.textContent = "Rank: A+";
     } else if (recordScore == 3) {
-        titleProgress.textContent = "Título: Cantos comum";
+        titleProgress.textContent = "Título: Supernova";
         rankProgress.textContent = "Rank: A";
     } else if (recordScore == 2) {
-        titleProgress.textContent = "Título: Cantor iniciante";
+        titleProgress.textContent = "Título: Pirata Comum";
         rankProgress.textContent = "Rank: B+";
     } else if (recordScore == 1) {
-        titleProgress.textContent = "Título: Cantor iniciante";
+        titleProgress.textContent = "Título: Pirata Comum";
         rankProgress.textContent = "Rank: B";
     } else {
         titleProgress.textContent = "Título: ???";
@@ -1070,7 +1070,7 @@ function clickStar2() {
     } else if (clicks == 16) {
         star2.setAttribute("data-before", '"NIKA"');
 
-        document.addEventListener("keydown", (event) => {np
+        document.addEventListener("keydown", (event) => {
             let key = event.key;
             let upperCaseKey = key.toUpperCase();
 
