@@ -80,8 +80,8 @@ let clicks = 0;
 let secretWord = "";
 
 const star3 = document.querySelector(".star-3");
-const video = document.getElementById("video");
-const videoBackground = document.querySelector(".video-background");
+// const video = document.getElementById("video");
+// const videoBackground = document.querySelector(".video-background");
 
 const miniLuffy = document.querySelector(".mini-luffy-container");
 const miniLuffyAudio = document.getElementById("miniLuffyAudio");
@@ -415,7 +415,7 @@ function calculateScoreBonus() {
     if (currentScore == 5 && minR < 1 && fail == 0) {
         rankNumber = 7;
 
-        scoreTitle.textContent = "Rei dos piratas";
+        scoreTitle.textContent = "Rei do karaoke";
         rank.textContent = "S++";
 
         if (rankNumber > recordScore && progress < 100) sessionStorage.setItem("recordScore", rankNumber);
@@ -423,7 +423,7 @@ function calculateScoreBonus() {
     } else if (currentScore == 5) {
         rankNumber = 6;
 
-        scoreTitle.textContent = "Yonkou";
+        scoreTitle.textContent = "Pop Star";
         rank.textContent = "S+";
 
         if (rankNumber > recordScore && progress < 100) sessionStorage.setItem("recordScore", rankNumber);
@@ -431,7 +431,7 @@ function calculateScoreBonus() {
     } else if (currentScore == 3) {
         rankNumber = 4;
 
-        scoreTitle.textContent = "Supernova";
+        scoreTitle.textContent = "Super Star";
         rank.textContent = "A+";
 
         if (rankNumber > recordScore && progress < 100) sessionStorage.setItem("recordScore", rankNumber);
@@ -439,7 +439,7 @@ function calculateScoreBonus() {
     } else if (currentScore == 1) {
         rankNumber = 2;
 
-        scoreTitle.textContent = "Pirata Comum";
+        scoreTitle.textContent = "Iniciante";
         rank.textContent = "B+";
 
         if (rankNumber > recordScore && progress < 100) sessionStorage.setItem("recordScore", rankNumber);
