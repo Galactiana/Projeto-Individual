@@ -3,8 +3,8 @@ const mysql = require("mysql2");
 const mySqlConfig = {
     host: "localhost",
     database: "karaokeQuiz",
-    user: "karol",
-    password: "music2024"
+    user: "luffy",
+    password: "nika"
 };
 
 function execute(instruction) {
