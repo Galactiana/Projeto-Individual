@@ -24,7 +24,7 @@ body {
     color: #ffffff;
     font-family: Montserrat;
     height: 100%;
-    background: linear-gradient(0deg, rgba(27, 64, 83, 0.86) 0%, rgba(27, 64, 83, 0.86) 100%), url("../assets/image/general-background.png");
+    background: linear-gradient(179.35deg, rgba(237, 204, 215, 0.96) 18.36%, rgba(235, 201, 215, 0.96) 26.27%, rgba(231, 196, 216, 0.96) 45.55%, rgba(228, 193, 217, 0.96) 50.99%, rgba(224, 191, 221, 0.96) 58.9%, rgba(222, 190, 223, 0.96) 67.31%, rgba(220, 189, 225, 0.96) 78.18%, rgba(216, 187, 228, 0.96) 87.08%, rgba(211, 185, 232, 0.96) 91.53%, rgba(204, 176, 236, 0.96) 99.44%);
     background-position: center;
     background-repeat: repeat;
     background-size: 30%;
@@ -71,7 +71,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1b40537d;
+    background-color: #ffffff;
     width: 480px;
     border-radius: 32px;
     padding: 36px 32px;
@@ -154,7 +154,7 @@ a {
 
 .input {
     font-size: 1rem;
-    color: #ffffff;
+    color: #680a80;
     padding: 12px 12px 12px 40px;
     margin: 16px 0;
     border: none;
@@ -173,7 +173,7 @@ a {
 
 .input:focus {
     outline: none;
-    background-color: rgba(27, 64, 83, 0.44);
+    background-color: rgba(57, 27, 83, 0.44);
 }
 
 .input::-webkit-input-placeholder {
@@ -213,7 +213,7 @@ a {
 }
 
 #submitBtn:hover {
-    background-color: #6ba4cf;
+    background-color: #4f065d;
 }
 
 #submitBtn:focus {
@@ -222,11 +222,12 @@ a {
 
 #submitBtn:disabled {
     cursor: no-drop;
-    background-color: #6ba4cf8f;
+    background-color: #8e46ca8f;
     color: #ffffff8f;
 }
 
 .account-text {
+    color: black;
     margin: 4px 0 8px 0;
     font-weight: 500;
     text-align: center;
