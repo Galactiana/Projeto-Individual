@@ -9,7 +9,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 </head>
 <body>
-  <h1>Criptografia AES</h1>
+  <h1>Criptografia AES</h1> 
 
   <input type="texto-claro" id="texto_claro" placeholder="Digite para Criptografar">
   <button onclick="criptografar()">Criptografar</button>
@@ -27,7 +27,7 @@
     // Texto a ser criptografado
     const textoClaro = texto_claro.value;
 
-    const textoCriptado = "U2FsdGVkX1+qhpq5eldHO6eheZFFyoqFldlLQJq0M4I="
+    const textoCriptado = ""
 
     // Criptografar o texto usando AES no modo ECB
     const textoCifrado = CryptoJS.AES.encrypt(textoClaro, chave, {

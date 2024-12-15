@@ -83,8 +83,8 @@ const star3 = document.querySelector(".star-3");
 // const video = document.getElementById("video");
 // const videoBackground = document.querySelector(".video-background");
 
-const miniLuffy = document.querySelector(".mini-luffy-container");
-const miniLuffyAudio = document.getElementById("miniLuffyAudio");
+// const miniLuffy = document.querySelector(".mini-luffy-container");
+// const miniLuffyAudio = document.getElementById("miniLuffyAudio");
 const onePieceOp = document.getElementById("onePieceOp");
 
 const recordTimeProgress = document.getElementById("recordTimeProgress");
@@ -312,21 +312,21 @@ function updateProgress(qNumber) {
 }
 
 function nextQuestion(qNumber) {
-    questiions[qNumber].questionNumber.toString().length == 1 ? questionNumber.textContent = `0${questiions[qNumber].questionNumber}.` : questionNumber.textContent = `${questiions[qNumber].questionNumber}.`;
-    questionText.textContent = questiions[qNumber].question;
-    A.textContent = questiions[qNumber].alt1;
-    B.textContent = questiions[qNumber].alt2;
-    C.textContent = questiions[qNumber].alt3;
-    D.textContent = questiions[qNumber].alt4;
-    A.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    B.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    C.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    D.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    questionNumber.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    textAll.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    myName.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    text2.setAttribute("value", questiions[qNumber].questionNumber - 1);
-    text20.setAttribute("value", questiions[qNumber].questionNumber - 1);
+    questions[qNumber].questionNumber.toString().length == 1 ? questionNumber.textContent = `0${questions[qNumber].questionNumber}.` : questionNumber.textContent = `${questions[qNumber].questionNumber}.`;
+    questionText.textContent = questions[qNumber].question;
+    A.textContent = questions[qNumber].alt1;
+    B.textContent = questions[qNumber].alt2;
+    C.textContent = questions[qNumber].alt3;
+    D.textContent = questions[qNumber].alt4;
+    A.setAttribute("value", questions[qNumber].questionNumber - 1);
+    B.setAttribute("value", questions[qNumber].questionNumber - 1);
+    C.setAttribute("value", questions[qNumber].questionNumber - 1);
+    D.setAttribute("value", questions[qNumber].questionNumber - 1);
+    questionNumber.setAttribute("value", questions[qNumber].questionNumber - 1);
+    textAll.setAttribute("value", questions[qNumber].questionNumber - 1);
+    myName.setAttribute("value", questions[qNumber].questionNumber - 1);
+    text2.setAttribute("value", questions[qNumber].questionNumber - 1);
+    text20.setAttribute("value", questions[qNumber].questionNumber - 1);
     updateProgress(qNumber);
 }
 
@@ -368,7 +368,7 @@ function calculateScore() {
     if (fail >= 0 && fail < 5) {
         rankNumber = 5;
 
-        scoreTitle.textContent = "Yonkou";
+        scoreTitle.textContent = "Rei do Karaoke";
         rank.textContent = "S";
 
         if ((rankNumber > recordScore && progress < 100) || !recordScore) sessionStorage.setItem("recordScore", rankNumber);
@@ -377,7 +377,7 @@ function calculateScore() {
     } else if (fail >= 5 && fail <= 10) {
         rankNumber = 3;
 
-        scoreTitle.textContent = "Supernova";
+        scoreTitle.textContent = "Super Star";
         rank.textContent = "A";
 
         if ((rankNumber > recordScore && progress < 100) || !recordScore) sessionStorage.setItem("recordScore", rankNumber);
@@ -386,7 +386,7 @@ function calculateScore() {
     } else if (fail > 10) {
         rankNumber = 1;
 
-        scoreTitle.textContent = "Pirata Comum";
+        scoreTitle.textContent = "Iniciante";
         rank.textContent = "B";
 
         if ((rankNumber > recordScore && progress < 100) || !recordScore) sessionStorage.setItem("recordScore", rankNumber);
@@ -522,9 +522,9 @@ function showGameOverScreen() {
     quiz.style.display = "none";
     gameOverBackground.style.display = "block";
 
-    setTimeout(() => {
-        gameOverText.classList.add("animate");
-    }, 100);
+    // setTimeout(() => {
+    //     gameOverText.classList.add("animate");
+    // }, 100);
 
     setTimeout(() => {
         gameOverBtn.style.visibility = "visible";
@@ -559,8 +559,16 @@ function showGameOverScreenBonus() {
 function checkAnswer(qNumber, answer) {
     const currentQuestionNumber = parseInt(qNumber.value);
     const chosenAnswer = answer.textContent;
+    // const encryptedAnswer = "HWfxyQpNW3kHO6t0UtK631fpzegnaCEvxLW4BSLP0gk="
     const rightAnswer = questions[currentQuestionNumber].answer;
-    const decrypted = CryptoJS.AES.decrypt(rightAnswer, "7fdsf7df8sd9sd8f").toString(CryptoJS.enc.Utf8);
+    const key =  CryptoJS.enc.Utf8.parse("7fdsf7df8sd9sd8f");
+    const decrypted = CryptoJS.AES.decrypt(rightAnswer, key, {
+        mode: CryptoJS.mode.ECB,
+        padding: CryptoJS.pad.Pkcs7
+      }).toString(CryptoJS.enc.Utf8);
+
+    console.log("Resposta descriptografada:", rightAnswer)
+
     const bonus = instructionBtn.getAttribute("data-bonus");
 
     //activate secret answer
@@ -665,7 +673,7 @@ function restartQuiz() {
     gameOverBackground.style.display = "none";
     quizMenu.style.display = "block";
     gameOverBtn.style.visibility = "hidden";
-    gameOverText.classList.remove("animate");
+    // gameOverText.classList.remove("animate");
     gameOverBtn.classList.remove("animate");
 
     const bonus = instructionBtn.getAttribute("data-bonus");
@@ -930,25 +938,25 @@ function showProgressScreen() {
     percentProgress.textContent = `Progresso atual: ${progress}%`;
 
     if (recordScore == 7) {
-        titleProgress.textContent = "Título: Rei dos Piratas";
+        titleProgress.textContent = "Título: Rei do Karaoke";
         rankProgress.textContent = "Rank: S++";
     } else if (recordScore == 6) {
-        titleProgress.textContent = "Título: Yonkou";
+        titleProgress.textContent = "Título: Pop Star";
         rankProgress.textContent = "Rank: S+";
     } else if (recordScore == 5) {
-        titleProgress.textContent = "Título: Yonkou";
+        titleProgress.textContent = "Título: Pop Star";
         rankProgress.textContent = "Rank: S";
     } else if (recordScore == 4) {
-        titleProgress.textContent = "Título: Supernova";
+        titleProgress.textContent = "Título: Super Star";
         rankProgress.textContent = "Rank: A+";
     } else if (recordScore == 3) {
-        titleProgress.textContent = "Título: Supernova";
+        titleProgress.textContent = "Título: Super Star";
         rankProgress.textContent = "Rank: A";
     } else if (recordScore == 2) {
-        titleProgress.textContent = "Título: Pirata Comum";
+        titleProgress.textContent = "Título: Iniciante";
         rankProgress.textContent = "Rank: B+";
     } else if (recordScore == 1) {
-        titleProgress.textContent = "Título: Pirata Comum";
+        titleProgress.textContent = "Título: Iniciante";
         rankProgress.textContent = "Rank: B";
     } else {
         titleProgress.textContent = "Título: ???";
@@ -1025,13 +1033,13 @@ function activateBonus() {
 
 if (star1) star1.addEventListener("dblclick", activateBonus);
 
-function playMiniLuffyAudio() {
-    miniLuffyAudio.volume = 0.3;
-    miniLuffyAudio.currentTime = 0;
-    miniLuffyAudio.play();
-}
+// function playMiniLuffyAudio() {
+//     miniLuffyAudio.volume = 0.3;
+//     miniLuffyAudio.currentTime = 0;
+//     miniLuffyAudio.play();
+// }
 
-if (miniLuffy) miniLuffy.addEventListener("click", playMiniLuffyAudio);
+// if (miniLuffy) miniLuffy.addEventListener("click", playMiniLuffyAudio);
 
 function clickStar2() {
     clearTimeout(star2TimeoutHandle);
@@ -1137,3 +1145,4 @@ function exitCreditsScreen() {
 if (exitCreditsBtn) exitCreditsBtn.addEventListener("click", exitCreditsScreen);
 
 document.addEventListener("contextmenu", event => event.preventDefault());
+

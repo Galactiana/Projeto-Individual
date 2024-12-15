@@ -2,7 +2,7 @@ CREATE DATABASE KaraokeQuiz;
 USE KaraokeQuiz;
 
 CREATE USER 'luffy'@'localhost' IDENTIFIED BY 'nika';
-GRANT ALL PRIVILEGES ON onepiecequiz.* TO 'luffy'@'localhost';
+GRANT ALL PRIVILEGES ON karaokeQuiz.* TO 'luffy'@'localhost';
 FLUSH PRIVILEGES;
 
 CREATE TABLE Player (
@@ -41,3 +41,15 @@ CREATE TABLE Feedback (
 );
 
 select * from Player;
+
+insert into Score (rankPlayer, speedrunTime, fkPlayer) values 
+('45', '2', 1);
+
+select * from Score;
+
+insert into QuestionError (questionNumber, fkPlayer) values
+(4, 1),
+(45, 1),
+(60, 1);
+
+select * from QuestionError;

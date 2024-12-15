@@ -98,10 +98,6 @@ function generatePieChart(star1, star2, star3, star4, star5) {
         }
     };
 
-    if (!pieChart) {
-        throw new Error("Elemento 'pieChart' não encontrado no DOM.");
-    }
-    
     new Chart(pieChart, config);
 }
 
