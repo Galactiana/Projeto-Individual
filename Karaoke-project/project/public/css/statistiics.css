@@ -59,7 +59,7 @@ S.container {
 .kpi {
     width: 180px;
     height: 170px;
-    background-color: #63158e7d;
+    background-color: #64158e67;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -70,6 +70,7 @@ S.container {
     text-transform: uppercase;
     text-align: center;
     padding-top: 16px;
+    padding: 20px;
     height: 33%;
     text-shadow: 1px 1px 2px #000000;
 }
@@ -98,7 +99,7 @@ S.container {
 .top-questions-container {
     width: 570px;
     height: 300px;
-    background-color: #63158e7d;
+    background-color: #64158e61;
     border-radius: 12px;
 }
 
@@ -114,7 +115,7 @@ S.container {
 .top-questions-container h4 {
     height: 18%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 table {
@@ -153,7 +154,7 @@ tbody tr td:nth-child(3) {
     margin-top: 70px;
     width: 570px;
     height: 440px;
-    background-color: #63158e7d;
+    background-color: #64158e63;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -178,4 +179,11 @@ tbody tr td:nth-child(3) {
     transform: translate(-50%, -50%);
     pointer-events: none;
     margin-top: -2px;
+}
+
+#pieChart {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
 }

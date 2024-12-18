@@ -39,7 +39,7 @@ const playerRank = document.querySelector(".player-rank");
 let bonusProgress = null;
 
 const quiz = document.querySelector(".quiz");
-const jollyRogerLuffy = document.getElementById("jollyRogerLuffy");
+const jollyRogerKaraoke = document.getElementById("jollyRogerKaraoke");
 const jollyRogerTeach = document.getElementById("jollyRogerTeach");
 const answers = document.querySelectorAll(".answer");
 const footerText = document.querySelector(".quiz-footer-text");
@@ -83,9 +83,9 @@ const star3 = document.querySelector(".star-3");
 // const video = document.getElementById("video");
 // const videoBackground = document.querySelector(".video-background");
 
-// const miniLuffy = document.querySelector(".mini-luffy-container");
-// const miniLuffyAudio = document.getElementById("miniLuffyAudio");
-const onePieceOp = document.getElementById("onePieceOp");
+// const miniKaraoke = document.querySelector(".mini-Karaoke-container");
+// const miniKaraokeAudio = document.getElementById("miniKaraokeAudio");
+// const karaokeOp = document.getElementById("karaokeOp");
 
 const recordTimeProgress = document.getElementById("recordTimeProgress");
 let recordTimerIntervalHandle = null;
@@ -119,14 +119,14 @@ function addBonusAttributes() {
     settingsContainer.classList.add("gray");
     confirmLogoutModal.classList.add("gray");
     quiz.classList.add("bonus");
-    jollyRogerLuffy.classList.remove("block");
+    jollyRogerKaraoke.classList.remove("block");
     jollyRogerTeach.classList.add("block");
     questionSvg.classList.add("bonus");
     questionNumber.classList.add("bonus");
     questionText.classList.add("bonus");
     answers.forEach((answer) => answer.classList.add("bonus"));
     footerText.classList.add("bonus");
-    miniLuffy.style.display = "none";
+    miniKaraoke.style.display = "none";
 }
 
 function removeBonusAttributes() {
@@ -135,13 +135,13 @@ function removeBonusAttributes() {
     if (quiz.classList.contains("bonus") || bonus == "true") {
         quiz.classList.remove("bonus");
         jollyRogerTeach.classList.remove("block");
-        jollyRogerLuffy.classList.add("block");
+        jollyRogerKaraoke.classList.add("block");
         questionSvg.classList.remove("bonus");
         questionNumber.classList.remove("bonus");
         questionText.classList.remove("bonus");
         answers.forEach((answer) => answer.classList.remove("bonus"));
         footerText.classList.remove("bonus");
-        miniLuffy.style.display = "block";
+        miniKaraoke.style.display = "block";
 
         gameOverText.classList.remove("bonus");
         gameOverBtn.classList.remove("bonus");
@@ -196,7 +196,7 @@ function startQuiz() {
     removeBonusAttributes();
 
     quizMenu.style.display = "none";
-    jollyRogerLuffy.classList.add("block");
+    jollyRogerKaraoke.classList.add("block");
     quiz.style.display = "block";
 
     q1.questionNumber.toString().length == 1 ? questionNumber.textContent = `0${q1.questionNumber}.` : questionNumber.textContent = `${q1.questionNumber}.`;
@@ -994,8 +994,8 @@ function resetProgress() {
     hR = 0;
 
     resetStar2Clicks();
-    onePieceOp.pause();
-    onePieceOp.currentTime = 0;
+    karaokeOp.pause();
+    karaokeOp.currentTime = 0;
 
     startBtn.style.cursor = "pointer";
     startBtn.addEventListener("click", startQuiz);
@@ -1033,13 +1033,13 @@ function activateBonus() {
 
 if (star1) star1.addEventListener("dblclick", activateBonus);
 
-// function playMiniLuffyAudio() {
-//     miniLuffyAudio.volume = 0.3;
-//     miniLuffyAudio.currentTime = 0;
-//     miniLuffyAudio.play();
+// function playMiniKaraokeAudio() {
+//     miniKaraokeAudio.volume = 0.3;
+//     miniKaraokeAudio.currentTime = 0;
+//     miniKaraokeAudio.play();
 // }
 
-// if (miniLuffy) miniLuffy.addEventListener("click", playMiniLuffyAudio);
+// if (miniKaraoke) miniKaraoke.addEventListener("click", playMiniKaraokeAudio);
 
 function clickStar2() {
     clearTimeout(star2TimeoutHandle);
@@ -1093,8 +1093,8 @@ function clickStar2() {
             }
 
             if (secretWord == "NIKA") {
-                onePieceOp.volume = 0.1;
-                onePieceOp.play();
+                karaokeOp.volume = 0.1;
+                karaokeOp.play();
             }
         });
 
@@ -1115,8 +1115,8 @@ if (star2) star2.addEventListener("click", clickStar2);
 function clickStar3() {
     resetStar2Clicks();
 
-    onePieceOp.pause();
-    onePieceOp.currentTime = 0;
+    karaokeOp.pause();
+    karaokeOp.currentTime = 0;
 
     videoBackground.style.cssText = "opacity: 1; visibility: visible";
     video.volume = 0.1;

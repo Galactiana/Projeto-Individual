@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #pieChart {
+            width: 400px;
+            height: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="pieChart"></canvas>
+    <script>
+        const ctx = document.getElementById("pieChart").getContext("2d");
+
+        const data = {
+            labels: ['1 ★', '2 ★', '3 ★', '4 ★', '5 ★'],
+            datasets: [{
+                label: 'Porcentagem',
+                data: [10, 20, 30, 25, 15],
+                backgroundColor: ['#AE6427', '#303030', '#FFCC00', '#D70000', '#4B97D2'],
+                hoverOffset: 4
+            }]
+        };
+
+        const config = {
+            type: 'doughnut',
+            data: data,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        };
+
+        new Chart(ctx, config);
+    </script>
+</body>
+</html>

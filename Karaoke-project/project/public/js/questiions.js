@@ -26,7 +26,7 @@ const q3 = {
     alt2: "Mezzo-soprano",
     alt3: "Soprano", //✅
     alt4: "Tenor",
-    answer: "q6N1L+LagRPe9U3y93/plA=="
+    answer: "kNcdzzucOj9sItCWUeEWSw=="
 }
 
 const q4 = {
@@ -36,7 +36,7 @@ const q4 = {
     alt2: "Leitura rítmica de uma partitura ",
     alt3: "Leitura cantada de notas musicais", //✅
     alt4: "Um estilo musical",
-    answer: "/V/GkrUJc2ebmEChjjbbVCbjgQhWsXEK4LIV421VENC7qLgVIdO5YJjsh5PZFStL"
+    answer: "/V/GkrUJc2ebmEChjjbbVCbjgQhWsXEK4LIV421VENAfs0HJ/D3sy7TlHBCdQRa2"
 }
 
 const q5 = {
@@ -156,7 +156,7 @@ const q16 = {
     alt2: "440 Hz", //✅
     alt3: "450 Hz",
     alt4: "480 Hz",
-    answer: "XbnlK1ZCU9vlZojjnjvrIw=="
+    answer: "xYa5sG+RdNH9onukcjl2PA=="
 }
 
 const q17 = {

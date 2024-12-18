@@ -89,33 +89,33 @@ window.addEventListener("load", () => {
 function showTitles() {
     if (!playerList) {
         titleSelect.innerHTML = `
-        <option value="Figurante">Figurante</option>
+        <option value="Iniciante">Iniciante</option>
         `;
     } else {
         if (playerList.rankPlayer <= 2) {
             titleSelect.innerHTML = `
-        <option value="Figurante">Figurante</option>
-        <option value="Pirata Comum">Pirata Comum</option>
+        <option value="Iniciante">Iniciante</option>
+        <option value="Pop Star">Pop Star</option>
         `;
         } else if (playerList.rankPlayer <= 4) {
             titleSelect.innerHTML = `
-        <option value="Figurante">Figurante</option>
-        <option value="Pirata Comum">Pirata Comum</option>
-        <option value="Supernova">Supernova</option>
+        <option value="Iniciante">Iniciante</option>
+        <option value="Pop Star">Pop Star</option>
+        <option value="Super Star">Super Star</option>
         `;
         } else if (playerList.rankPlayer <= 6) {
             titleSelect.innerHTML = `
-        <option value="Figurante">Figurante</option>
-        <option value="Pirata Comum">Pirata Comum</option>
-        <option value="Supernova">Supernova</option>
-        <option value="Yonkou">Yonkou</option>
+        <option value="Iniciante">Iniciante</option>
+        <option value="Pop Star">Pop Star</option>
+        <option value="Super Star">Super Star</option>
+        <option value="Rei do Karaoke">Rei do Karaoke</option>
         `;
         } else {
             titleSelect.innerHTML = `
-        <option value="Figurante">Figurante</option>
-        <option value="Pirata Comum">Pirata Comum</option>
-        <option value="Supernova">Supernova</option>
-        <option value="Yonkou">Yonkou</option>
+        <option value="Iniciante">Iniciante</option>
+        <option value="Pop Star">Pop Star</option>
+        <option value="Super Star">Super Star</option>
+        <option value="Rei do Karaoke">Rei do Karaoke</option>
         <option value="Rei dos Piratas">Rei dos Piratas</option>
         `;
         }

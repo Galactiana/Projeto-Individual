@@ -5,6 +5,8 @@ const kpiS = document.getElementById("kpiS");
 const questionErrorTbody = document.getElementById("questionErrorTbody");
 
 const pieChart = document.getElementById("pieChart");
+console.log(pieChart); // Deve exibir <canvas id="pieChart"></canvas>
+
 let star1 = 0;
 let star2 = 0;
 let star3 = 0;
@@ -49,42 +51,34 @@ function getRankingQuestionError() {
         .then(res => {
             res.json().then(res => {
                 if (res.length > 0) {
-                    for (let i = 0; i < 5; i++) {
+                    questionErrorTbody.innerHTML = "";
+                    for (let i = 0; i < Math.min(res.length, 5); i++) {
                         questionErrorTbody.innerHTML += `
-                        <tr>
-                        <td>${i + 1}º</td>
-                        <td>Questão ${twoDigits(res[i].questionNumber)}</td>
-                        <td>${res[i].questionCount}x</td>
-                        </tr>
+                            <tr>
+                            <td>${i + 1}º</td>
+                            <td>Questão ${twoDigits(res[i].questionNumber)}</td>
+                            <td>${res[i].questionCount}x</td>
+                            </tr>
                         `;
                     }
+                    
                 }
             });
         });
 }
+let chartInstance = null; // Variável global para armazenar a instância do gráfico
 
 function generatePieChart(star1, star2, star3, star4, star5) {
-    Chart.defaults.font.size = 16;
-    Chart.defaults.color = "#ffffff";
+    if (chartInstance) {
+        chartInstance.destroy(); // Destrói o gráfico anterior
+    }
 
     const data = {
-        labels: [
-            '1 ★',
-            '2 ★',
-            '3 ★',
-            '4 ★',
-            '5 ★'
-        ],
+        labels: ['1 ★', '2 ★', '3 ★', '4 ★', '5 ★'],
         datasets: [{
             label: 'Porcentagem',
-            data: [star1, star2, star3, star4, star5],
-            backgroundColor: [
-                '#AE6427',
-                '#303030',
-                '#FFCC00',
-                '#D70000',
-                '#4B97D2'
-            ],
+            data: [10, 20, 30, 40, 50],
+            backgroundColor: ['#DA70D6', '#DA10C5', '#8B008B', '#67109C', '#7831A9'],
             hoverOffset: 4
         }]
     };
@@ -98,10 +92,13 @@ function generatePieChart(star1, star2, star3, star4, star5) {
         }
     };
 
-    new Chart(pieChart, config);
+    chartInstance = new Chart(pieChart, config); // Armazena a nova instância
 }
 
+
+
 function getFeedbackStarsCount() {
+    
     fetch(`/feedback/list-by-stars`)
         .then(res => {
             res.json().then(res => {

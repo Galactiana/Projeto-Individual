@@ -1,8 +1,8 @@
 CREATE DATABASE KaraokeQuiz;
 USE KaraokeQuiz;
 
-CREATE USER 'luffy'@'localhost' IDENTIFIED BY 'nika';
-GRANT ALL PRIVILEGES ON karaokeQuiz.* TO 'luffy'@'localhost';
+CREATE USER 'karol'@'localhost' IDENTIFIED BY 'karola';
+GRANT ALL PRIVILEGES ON karaokeQuiz.* TO 'karol'@'localhost';
 FLUSH PRIVILEGES;
 
 CREATE TABLE Player (
