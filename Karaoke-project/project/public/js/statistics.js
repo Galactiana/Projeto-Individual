@@ -77,7 +77,7 @@ function generatePieChart(star1, star2, star3, star4, star5) {
         labels: ['1 ★', '2 ★', '3 ★', '4 ★', '5 ★'],
         datasets: [{
             label: 'Porcentagem',
-            data: [10, 20, 30, 40, 50],
+            data: [15, 20, 30, 40, 50],
             backgroundColor: ['#DA70D6', '#DA10C5', '#8B008B', '#67109C', '#7831A9'],
             hoverOffset: 4
         }]

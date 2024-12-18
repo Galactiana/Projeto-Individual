@@ -4,7 +4,7 @@ const mySqlConfig = {
     host: "localhost",
     database: "KaraokeQuiz",
     user: "karol",
-    password: "karola"
+    password: "karola123"
 };
 
 function execute(instruction) {

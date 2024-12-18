@@ -16,7 +16,7 @@ function countScore100() {
 }
 
 function countSpeedrunTime() {
-    const instruction = `SELECT COUNT(idScore) AS timeCount FROM Score WHERE speedrunTime <= '00:01:00.0';`;
+    const instruction = `SELECT COUNT(idScore) AS timeCount FROM Score WHERE speedrunTime <= '00:03:00.0';`;
     return database.execute(instruction);
 }
 

@@ -1,7 +1,7 @@
 CREATE DATABASE KaraokeQuiz;
 USE KaraokeQuiz;
 
-CREATE USER 'karol'@'localhost' IDENTIFIED BY 'karola';
+CREATE USER 'karol'@'localhost' IDENTIFIED BY 'karola123';
 GRANT ALL PRIVILEGES ON karaokeQuiz.* TO 'karol'@'localhost';
 FLUSH PRIVILEGES;
 
@@ -53,3 +53,6 @@ insert into QuestionError (questionNumber, fkPlayer) values
 (60, 1);
 
 select * from QuestionError;
+
+
+
